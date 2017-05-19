@@ -41,9 +41,13 @@
   width: 100%;
 }
 
-.icon{
+.icon--hero-park{
+  position: absolute;
   width: 300px;
-  height: 300px;
+  height: inherit;
+  background-position: left bottom;
+  z-index: 1;
+
 }
 
 #section{
