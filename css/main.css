@@ -109,3 +109,50 @@
 section.section-steps{
   background-color: #F9F9F9;
 }
+
+hr.linea{
+  max-width: 100%;
+  border-top: 1px solid #EEEEEE;
+}
+
+h2{
+  font-size: 38px;
+}
+
+.icon--feature-support,
+.icon--feature-eco,
+.icon--feature-insurance,
+.icon--feature-transparency,
+.icon--feature-professional,
+.icon--feature-flexibility{
+  display: inline-block;
+  width: 100px;
+  height: 81px;
+}
+
+.icon-chevron-down{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+div.col-sm-12.col-md-4{
+  display: flex;
+  border-top:1px solid lightgray;
+}
+
+section.section-container row{
+  display: flex;
+  flex-direction: column;
+}
+p.text-success{
+  display: flex;
+  align-items: center;
+}
+
+@media (min-width:600px){
+  div.col-sm-12.col-md-4{
+    display:flex;
+    flex-direction: column;
+  }
+}
